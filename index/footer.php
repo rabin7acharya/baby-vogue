@@ -25,7 +25,7 @@
     <div class="footer container ">
         <div class="top d-flex justify-content-between pb-2">
             <div class="left">
-            <img src='../source/images/product_images/BabyVogueLogo.png' class="footer-logo">
+            <img src='source/images/product_images/BabyVogueLogo.png' class="footer-logo">
             </div>
             <div class="right social-links d-flex gap-4">
                 <!-- social links using svg -->

@@ -78,7 +78,7 @@
 
     <div class="container">
         <div class="img-block">
-            <img src="../source/images/contact-us.png" alt="About Us" style="width: 90%; float: left;" />
+            <img src="source/images/contact-us.png" alt="About Us" style="width: 90%; float: left;" />
         </div>
         <div class="text-block">
             <h1>Contact Us</h1>

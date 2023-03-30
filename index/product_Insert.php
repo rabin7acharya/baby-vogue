@@ -19,9 +19,9 @@ if (!isset($_SESSION['adminsUsername'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insert Products</title>
-    <link href="../source/css/navbar.css" rel="stylesheet" type="text/css" />
-    <link href="../source/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="../source/css/insertProduct.css" rel="stylesheet" type="text/css" />
+    <link href="source/css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="source/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="source/css/insertProduct.css" rel="stylesheet" type="text/css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -121,7 +121,7 @@ if (isset($_POST['submit'])) {
 
     $temp_name1 = $_FILES['product_img1']['tmp_name'];
 
-    move_uploaded_file($temp_name1, "../source/Images/product_images/$product_img1");
+    move_uploaded_file($temp_name1, "source/Images/product_images/$product_img1");
 
     $insert_product = "insert into product (productName,quantity,unitPrice,description,discount,imageLocation,categoryID,adminID) values ('$product_title','$product_qty','$product_price','$product_desc','$product_discount','$product_img1','$product_cat','1')";
 

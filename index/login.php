@@ -10,8 +10,8 @@ if (!isset($_SESSION["loginerror"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogIn</title>
-    <link href="../source/css/style.css" rel="stylesheet" type="text/css" />
-    <script src="../source/JS/login.js"></script>
+    <link href="source/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="source/JS/login.js"></script>
 </head>
 
 <body>

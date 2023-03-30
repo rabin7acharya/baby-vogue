@@ -7,8 +7,8 @@ include('functions.php') ?>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shan Baby Products</title>
-  <link href="../source/css/style.css" rel="stylesheet" type="text/css" />
-  <script src="../source/JS/signup.js"></script>
+  <link href="source/css/style.css" rel="stylesheet" type="text/css" />
+  <script src="source/JS/signup.js"></script>
 </head>
 
 <?php require 'header.php' ?>

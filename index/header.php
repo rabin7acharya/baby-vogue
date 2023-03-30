@@ -12,7 +12,7 @@
 
 <div class="navbar d-flex justify-content-between container">
     <div class="left">
-        <img src="../source/images/product_images/BabyVogueLogo.png" alt="logo" id="logo">
+        <img src="/Source/Images/product_images/BabyVogueLogo.png" alt="logo" id="logo">
     </div>
     <div class="middle">
     <a href="index.php" class="btn btn-sm">Home</a>

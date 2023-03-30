@@ -37,7 +37,7 @@ function getPro()
         
             <a href='productDetail.php?pro_id=$pro_id'>
             
-                <img class='image col-12' src='source/images/product_images//$pro_img' style='height: 15rem;'>
+                <img class='image col-12' src='/source/image/product_images/Frame 103.png' style='height: 15rem;'>
             
             </a>
             

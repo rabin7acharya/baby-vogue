@@ -126,7 +126,7 @@ if (!isset($_SESSION['adminsUsername'])) {
                                 <td><?php echo $row['description']; ?></td>
 
                                 <td><?php echo $row['discount']; ?>%</td>
-                                <td><img src="../source/Images/product_images/<?php echo $row['imageLocation']; ?>" width="50" height="35" /></td>
+                                <td><img src="../source/images/product_images/<?php echo $row['imageLocation']; ?>" width="50" height="35" /></td>
                                 <td><?php echo $row['categoryID']; ?></td>
                                 
 

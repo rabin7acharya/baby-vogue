@@ -37,7 +37,7 @@ function getPro()
         
             <a href='productDetail.php?pro_id=$pro_id'>
             
-                <img class='image col-12' src='../source/Images/product_images//$pro_img' style='height: 15rem;'>
+                <img class='image col-12' src='../source/images/product_images//$pro_img' style='height: 15rem;'>
             
             </a>
             
@@ -198,7 +198,7 @@ function getpcatpro()
             
                 <a href='productDetail.php?pro_id=$pro_id'>
                 
-                    <img class='Pimg' src='../source/Images/product_images/$pro_img' >
+                    <img class='Pimg' src='../source/images/product_images/$pro_img' >
                 
                 </a>
                 
@@ -371,7 +371,7 @@ function getItems()
                             <div class='col1'></div>
                             <div class='row1'>
                                 <div class='img'>
-                                    <img src='../source/Images/product_images/$pro_img' width='100%' height='100'>
+                                    <img src='../source/images/product_images/$pro_img' width='100%' height='100'>
                                 </div>
                                 <div class='name'>
                                     <p>$pro_title</p>

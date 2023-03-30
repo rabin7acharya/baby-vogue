@@ -1,0 +1,105 @@
+#cart {
+  width: 60%;
+  height: 100%;
+  background-color: #e7e7e9;
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
+  box-shadow: 5px 5px 13px #cbcecf, -5px -5px 10px #ffffff;
+}
+
+.itemBlock {
+  background-color: #ffffff9a;
+}
+
+.table {
+  display: table;
+}
+
+.row1 {
+  display: table-row;
+}
+
+.col1 {
+  display: table-column;
+  margin: 10px 20px 10px 20px;
+  width: 25%;
+}
+
+.img {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.name {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.qty {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.price {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.remove {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.temp {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+}
+
+.total {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sum {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.removeall {
+  padding: 10px 20px 10px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  border: 0;
+  margin-top: 5px;
+  width: 120px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 10x;
+  padding: 12px 12px 12px 12px;
+  font-size: 15px;
+  align-self: center;
+  box-shadow: 2px 2px 5px #cbcecf, -2px -2px 5px #ffffff;
+  background-color: rgb(15, 179, 83);
+}

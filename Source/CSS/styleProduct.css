@@ -1,0 +1,133 @@
+.Pcontainer {
+  margin: auto;
+  overflow: hidden;
+  background: rgba(233, 233, 233, 0);
+  margin-top: 20px;
+}
+
+.Pcontainer ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Pcontainer ul li {
+  float: left;
+  list-style: none;
+  width: 25%;
+  height: 430px;
+  margin: 20px 0px 20px 55px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.Pimg {
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+  .Pcontainer ul li {
+    width: 40%;
+    margin-left: 40px;
+  }
+}
+
+.text {
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.text h3 {
+  font-size: 130%;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  border: 0;
+  margin-top: 5px;
+  width: 120px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 10x;
+  padding: 12px 12px 12px 12px;
+  font-size: 15px;
+  text-decoration: none;
+  align-self: center;
+  box-shadow: 2px 2px 5px #cbcecf, -2px -2px 5px #ffffff;
+  background-color: rgb(15, 179, 83);
+}
+
+.buttonD {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 3px;
+  width: 120px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 10x;
+  padding: 12px 12px 12px 12px;
+  font-size: 15px;
+  align-self: center;
+  box-shadow: 2px 2px 5px #cbcecf, -2px -2px 5px #ffffff;
+  background-color: rgb(201, 141, 14);
+}
+
+a {
+  text-decoration: none;
+}
+
+.Ptitle {
+  color: rgb(53, 52, 52);
+}
+
+.price {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cat_panel {
+  float: left;
+  width: 15%;
+  background-color: #ecedee;
+  border-radius: 10px;
+}
+
+.cat_title {
+  text-align: center;
+  background-color: #cbcecf;
+  padding: 10px 0px 10px 0px;
+  vertical-align: middle;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cat_body ul {
+  padding: 0px;
+  margin-bottom: 100px;
+}
+
+.cat_body ul li {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px 50px 0px 25px;
+  color: rgb(41, 41, 41);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.cat_body a {
+  color: rgb(41, 41, 41);
+}
+
+.products {
+  display: table-cell;
+  padding: 0px;
+}

@@ -1,0 +1,5 @@
+CLS
+PRINT "Enter a number: ";
+INPUT num
+result = num * 2
+PRINT "Result: "; result

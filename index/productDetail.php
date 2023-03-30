@@ -33,10 +33,10 @@ if (isset($_GET['pro_id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-    <link href="source/css/navbar.css" rel="stylesheet" type="text/css" />
-    <link href="source/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="source/css/insertProduct.css" rel="stylesheet" type="text/css" />
-    <link href="source/css/styleProduct.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/insertProduct.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/styleProduct.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -62,7 +62,7 @@ if (isset($_GET['pro_id'])) {
         </div>
         <div class="product-details p-4" style="border: 1px solid #0002; border-radius: 1rem;">
             <div class="img rounded">
-                <img class="col-8" src="source/images/product_images/<?php echo $pro_img; ?>">
+                <img class="col-8" src="../source/Images/product_images/<?php echo $pro_img; ?>">
                 <h3 style="padding-bottom: 20px"> <?php echo $pro_title; ?></h3>
                 <h3>Product Description</h3>
                 <p> <?php echo $pro_desc; ?></p>

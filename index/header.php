@@ -1,5 +1,5 @@
 <head>
-    <link href="source/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -12,9 +12,7 @@
 
 <div class="navbar d-flex justify-content-between container">
     <div class="left">
-        <!-- <img src="source/images/product_images/BabyVogueLogo.png" alt="logo" id="logo"> -->
-        <img src="/source/image/product_images/BabyVogueLogo.png" alt="logo" id="logo">
-        
+        <img src="../source/images/product_images/BabyVogueLogo.png" alt="logo" id="logo">
     </div>
     <div class="middle">
     <a href="index.php" class="btn btn-sm">Home</a>

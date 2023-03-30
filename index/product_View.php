@@ -18,9 +18,9 @@ if (!isset($_SESSION['adminsUsername'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insert Products</title>
-    <link href="source/css/navbar.css" rel="stylesheet" type="text/css" />
-    <link href="source/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="source/css/insertProduct.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../source/css/insertProduct.css" rel="stylesheet" type="text/css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -108,7 +108,7 @@ if (!isset($_SESSION['adminsUsername'])) {
                             <th>Price</th>
                             <th>description</th>
                             <th>Disc.</th>
-                            <th>image</th>
+                            <th>Image</th>
                             <th>Category</th>
 
                             <th>Edit</th>
@@ -126,7 +126,7 @@ if (!isset($_SESSION['adminsUsername'])) {
                                 <td><?php echo $row['description']; ?></td>
 
                                 <td><?php echo $row['discount']; ?>%</td>
-                                <td><img src="source/images/product_images/<?php echo $row['imageLocation']; ?>" width="50" height="35" /></td>
+                                <td><img src="../source/Images/product_images/<?php echo $row['imageLocation']; ?>" width="50" height="35" /></td>
                                 <td><?php echo $row['categoryID']; ?></td>
                                 
 

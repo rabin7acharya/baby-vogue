@@ -87,9 +87,9 @@ if (!isset($_SESSION['adminsUsername'])) {
                 <input name="product_discount" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>Product Image</label>
+                <label>Product image</label>
                 <input name="product_img1" style="width:50%" type="file" style="margin-left: -110px" required>
-                <p align='right' style="padding-right:60px; font-size:15px;">Image size should be 1280x720</p>
+                <p align='right' style="padding-right:60px; font-size:15px;">image size should be 1280x720</p>
             </div>
             <div class="form-group">
                 <label>Product Description</label>
@@ -121,7 +121,7 @@ if (isset($_POST['submit'])) {
 
     $temp_name1 = $_FILES['product_img1']['tmp_name'];
 
-    move_uploaded_file($temp_name1, "source/Images/product_images/$product_img1");
+    move_uploaded_file($temp_name1, "source/images/product_images/$product_img1");
 
     $insert_product = "insert into product (productName,quantity,unitPrice,description,discount,imageLocation,categoryID,adminID) values ('$product_title','$product_qty','$product_price','$product_desc','$product_discount','$product_img1','$product_cat','1')";
 

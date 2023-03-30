@@ -108,7 +108,7 @@ if (!isset($_SESSION['adminsUsername'])) {
                             <th>Price</th>
                             <th>description</th>
                             <th>Disc.</th>
-                            <th>Image</th>
+                            <th>image</th>
                             <th>Category</th>
 
                             <th>Edit</th>
